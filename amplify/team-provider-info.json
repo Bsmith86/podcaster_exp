@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-peerpod-dev-53150-authRole",
+      "UnauthRoleArn": "arn:aws:iam::629575620081:role/amplify-peerpod-dev-53150-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::629575620081:role/amplify-peerpod-dev-53150-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-peerpod-dev-53150-deployment",
+      "UnauthRoleName": "amplify-peerpod-dev-53150-unauthRole",
+      "StackName": "amplify-peerpod-dev-53150",
+      "StackId": "arn:aws:cloudformation:us-east-2:629575620081:stack/amplify-peerpod-dev-53150/bb2a6790-7f90-11ed-9705-02096fbbfa78",
+      "AmplifyAppId": "d3egsv67zzhaeo"
+    }
+  }
+}
