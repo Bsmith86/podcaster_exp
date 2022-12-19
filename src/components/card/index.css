@@ -1,0 +1,35 @@
+.individual-card{
+    transition: .5s !important;
+    position: absolute;
+    width: 345px;
+    max-width: 345px;
+}
+.expanded {
+    width: 500px !important;
+    max-width: 500px !important;
+    z-index: 6;
+}
+.expanded-img{
+    height: 300px !important
+}
+.card-image{
+    transition: .5s;
+}
+.placeholder-box{
+    width: 345px;
+    max-width: 345px;
+    height: 434px !important;;
+    position: relative;
+}
+.z-index-5{
+    z-index: 5;
+}
+.header-1{
+    padding-bottom: 0px !important;
+}
+.header-2{
+    padding: 0px 0px 16px 20px !important
+}
+.participant-container{
+    display: flex !important;
+}

@@ -1,0 +1,57 @@
+.pro-sidebar{
+    min-width: 200px !important;
+}
+.main-sidebar{
+    max-width: var(--sidebarWidth);
+    min-height: 100vh !important;
+    height: 100% !important;
+}
+.pro-sidebar-inner{
+    background: #F6F6F6 !important;
+    max-width: var(--sidebarWidth);
+    color: black;
+    border-right: 1px solid grey !important;
+
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.my-button{
+    background-color: var(--themeOrange) !important
+
+}
+.sidebar-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+.sidebar-logo{
+max-width: var(--sidebarWidth) !important;
+}
+
+.sidebar-button{
+    font-size: 70px !important;
+    color: var(--themeBlue) !important
+
+}
+.buttons-container{
+    margin: 20px 0px;
+}
+.sidebar-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    cursor: pointer;
+    background: #F6F6F6 !important;
+}
+.sidebar-button-container:hover{
+    background-color: #e6e6e6 !important;
+}
+.sidebar-button-container:active{
+    background: #F6F6F6 !important;
+
+}

@@ -1,0 +1,15 @@
+.component-container{
+    /* height: calc(100vh - 104px); */
+    display: flex;
+}
+#loggedin-inner-container{
+    display: flex;
+    flex-direction: column;
+    /* width: calc(100vw - var(--sidebarWidth)); */
+}
+.app-content{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow: hidden;
+}

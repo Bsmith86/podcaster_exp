@@ -1,0 +1,11 @@
+.rightbar-container{
+    min-width: 200px;
+    background-color: #F6F6F6;
+    margin-left: auto;
+    min-height: calc(100vh - 100px);
+}
+.rightbar-positioned{
+    width: 200px;
+    position: absolute;
+    top: calc(var(--sidebarWidth) - 1px);
+}

@@ -1,0 +1,25 @@
+.searchbar{
+    max-width: 400px;
+    margin-left: 40px;
+}
+.dashboard-container{
+    padding: 40px;
+}
+.card-container{
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px
+}
+#greeting{
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+.sub-heading{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.upper-text-container{
+
+}

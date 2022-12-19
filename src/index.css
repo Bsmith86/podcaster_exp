@@ -1,0 +1,36 @@
+
+:root {
+  --sidebarWidth: 200px;
+  --themeBlue: #75CBFD;
+  --themeOrange: #d6680b;
+  --themeGrey: #424242;
+}
+@media (max-width: 600px) {
+  :root {
+  }
+  }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.amplify-button{
+  background-color: #75CBFD !important;
+  color: white !important;
+}
+.amplify-tabs-item{
+  border-color: #75CBFD !important;
+  color: black !important;
+}
+.amplify-authenticator {
+  background: #BDE7FF !important;
+}
