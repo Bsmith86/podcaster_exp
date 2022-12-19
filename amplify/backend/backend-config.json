@@ -5,5 +5,28 @@
       "type": "cicd",
       "lastPushTimeStamp": "2022-12-19T13:58:16.787Z"
     }
+  },
+  "function": {
+    "searchUsers": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "api": {
+    "v1api": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "searchUsers",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
   }
 }
