@@ -9,7 +9,7 @@ import Navbar from './components/navbar';
 import Sidebar from './components/sidebar';
 // import PageWrapper from './components/PageWrapper';
 
-
+ 
 /// PAGES ///
 import WithRightBar from './routes/WithRightBar'
 import Dashboard from './pages/Dashboard';
