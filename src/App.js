@@ -16,7 +16,7 @@ import Dashboard from './pages/Dashboard';
 import Upload from './pages/Upload'
 
 // AWS
-import Amplify, { API, Auth } from 'aws-amplify';
+import  { API, Auth, Amplify } from 'aws-amplify';
 import awsExports from "./aws-exports";
 import { Authenticator , withAuthenticator, View, Image, useTheme } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
