@@ -33,6 +33,7 @@ I18n.setLanguage('es');
 
 
 Amplify.configure(awsExports);
+Auth.configure(awsExports);
 
 
 
