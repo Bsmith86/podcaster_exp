@@ -71,7 +71,7 @@ function App() {
       );
     },
   }
-
+  
   return (
     <Authenticator
     components={components}
