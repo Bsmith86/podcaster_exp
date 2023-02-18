@@ -4,7 +4,7 @@ import Card from '../../components/card'
 import LoadingCard from '../../components/loadingCard';
 import './index.css'
 const Dashboard = () => {
-    let {
+    let { 
         dashboardPodcasts,
         setDashboardPodcasts
       } = useContext(DashboardContext)
