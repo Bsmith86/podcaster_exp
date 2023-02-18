@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Amplify from 'aws-amplify';
-import { AmplifyProvider } from '@aws-amplify/ui-react';
+import { ProSidebarProvider } from 'react-pro-sidebar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -22,9 +21,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // }
 root.render(
   <React.StrictMode>
-    {/* <AmplifyProvider theme={theme}> */}
+    <ProSidebarProvider>
       <App />
-    {/* </AmplifyProvider> */}
+    </ProSidebarProvider>
   </React.StrictMode>
 );
 

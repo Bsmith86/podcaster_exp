@@ -15,8 +15,8 @@ import Logo from '../../assets/FinalLogo.jpg'
 
 /// COMPONENTS ///
 import Menuitem from './menuItem';
-import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import 'react-pro-sidebar/dist/css/styles.css';
+import { Sidebar as ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
+// import 'react-pro-sidebar/dist/css/styles.css';
 
 import { useNavigate } from 'react-router-dom'
 
